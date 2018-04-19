@@ -4,7 +4,6 @@ class Triangle
 
   def initialize(a, b, c)
     @s, @m, @l = [a, b, c].sort
-
   end
 
   def kind
