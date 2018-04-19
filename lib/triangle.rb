@@ -3,6 +3,7 @@ class Triangle
   attr_accessor :s, :m, :l
 
   def initialize(a, b, c)
+    # destructive assignment, sounds bad but it is not!
     @s, @m, @l = [a, b, c].sort
   end
 
